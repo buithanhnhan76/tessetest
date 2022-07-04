@@ -8,47 +8,197 @@ import Project6 from "../images/Project6.png";
 
 const Work = () => {
   return (
-    <section className="bg-[#000000]">
+    <section className="bg-[#000000] mt-[-1px]">
       <main>
         <div>
-          <div className="text-white text-center pb-[56px] leading-[41.85px] text-[34.58px]">
+          <div className="text-white text-center pb-[56px] leading-[41.85px] lg:leading-[98px] text-[34.58px] lg:text-[81px] font-[600]">
             Work
           </div>
-          <div className="w-full relative">
+          <div className="w-full md:w-[50%] md:inline-block relative group mt-[-7px]">
             <img src={Project1} className="w-full"></img>
-            <div className="bg-[#ffffff] max-w-[229px] text-[11px] leading-[13px] pt-[11px] pl-[19px] pr-[11px] pb-[14px] absolute bottom-0 left-0">
-              <div className="font-[700]">Abstract Design</div>
-              <div className="font-[300] text-[6px] leading-[7.26px]">
+            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
+              <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
+                Abstract Design
+              </div>
+              <div className="font-[300] text-[6px] leading-[7.26px] lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit.
               </div>
+              <div className="lg:mt-[34px]">
+                See Project{" "}
+                <svg
+                  width="33"
+                  height="21"
+                  viewBox="0 0 33 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="inline-block w-[30px] h-[18px]"
+                >
+                  <path
+                    d="M0.949219 10.3248H30.763M30.763 10.3248L22.0176 1.57935M30.763 10.3248L22.0176 19.4676"
+                    stroke="black"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-          <div className="w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px]"></div>
-          <div className="w-full relative">
+          <div className="w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px] md:hidden"></div>
+          <div className="w-full md:w-[50%] md:inline-block relative group mt-[-7px]">
             <img src={Project2} className="w-full"></img>
-            <div className="bg-[#ffffff] max-w-[229px] text-[11px] leading-[13px] pt-[11px] pl-[19px] pr-[11px] pb-[14px] absolute bottom-0 right-0">
-              <div className="font-[700]">Abstract Design</div>
-              <div className="font-[300] text-[6px] leading-[7.26px]">
+            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
+              <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
+                Abstract Design
+              </div>
+              <div className="font-[300] text-[6px] leading-[7.26px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit.
               </div>
+              <div className="lg:mt-[34px]">
+                See Project{" "}
+                <svg
+                  width="33"
+                  height="21"
+                  viewBox="0 0 33 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="inline-block w-[30px] h-[18px]"
+                >
+                  <path
+                    d="M0.949219 10.3248H30.763M30.763 10.3248L22.0176 1.57935M30.763 10.3248L22.0176 19.4676"
+                    stroke="black"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-          <div className="w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px]"></div>
-          <div className="w-full relative">
+          <div className="w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px] md:hidden"></div>
+          <div className="w-full md:w-[50%] md:inline-block relative group mt-[-7px]">
             <img src={Project2} className="w-full"></img>
-            <div className="bg-[#ffffff] max-w-[229px] text-[11px] leading-[13px] pt-[11px] pl-[19px] pr-[11px] pb-[14px] absolute bottom-0 left-0">
-              <div className="font-[700]">Abstract Design</div>
-              <div className="font-[300] text-[6px] leading-[7.26px]">
+            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
+              <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
+                Abstract Design
+              </div>
+              <div className="font-[300] text-[6px] leading-[7.26px]  lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit.
+              </div>
+              <div className="lg:mt-[34px]">
+                See Project{" "}
+                <svg
+                  width="33"
+                  height="21"
+                  viewBox="0 0 33 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="inline-block w-[30px] h-[18px]"
+                >
+                  <path
+                    d="M0.949219 10.3248H30.763M30.763 10.3248L22.0176 1.57935M30.763 10.3248L22.0176 19.4676"
+                    stroke="black"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-[50%] hidden md:inline-block relative group mt-[-7px] ">
+            <img src={Project4} className="w-full"></img>
+            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
+              <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
+                Abstract Design
+              </div>
+              <div className="font-[300] text-[6px] leading-[7.26px] lg:text-[20px] lg:leading-[24px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
+                ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </div>
+              <div className="lg:mt-[34px]">
+                See Project{" "}
+                <svg
+                  width="33"
+                  height="21"
+                  viewBox="0 0 33 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="inline-block w-[30px] h-[18px]"
+                >
+                  <path
+                    d="M0.949219 10.3248H30.763M30.763 10.3248L22.0176 1.57935M30.763 10.3248L22.0176 19.4676"
+                    stroke="black"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-[50%] hidden md:inline-block relative group mt-[-7px] mb-[-7px]">
+            <img src={Project5} className="w-full"></img>
+            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
+              <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
+                Abstract Design
+              </div>
+              <div className="font-[300] text-[6px] leading-[7.26px] lg:text-[20px] lg:leading-[24px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
+                ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </div>
+              <div className="lg:mt-[34px]">
+                See Project{" "}
+                <svg
+                  width="33"
+                  height="21"
+                  viewBox="0 0 33 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="inline-block w-[30px] h-[18px]"
+                >
+                  <path
+                    d="M0.949219 10.3248H30.763M30.763 10.3248L22.0176 1.57935M30.763 10.3248L22.0176 19.4676"
+                    stroke="black"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-[50%] hidden md:inline-block relative group mt-[-7px] mb-[-7px]">
+            <img src={Project6} className="w-full"></img>
+            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
+              <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
+                Abstract Design
+              </div>
+              <div className="font-[300] text-[6px] leading-[7.26px]  lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
+                ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.
+              </div>
+              <div className="lg:mt-[34px]">
+                See Project{" "}
+                <svg
+                  width="33"
+                  height="21"
+                  viewBox="0 0 33 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="inline-block w-[30px] h-[18px]"
+                >
+                  <path
+                    d="M0.949219 10.3248H30.763M30.763 10.3248L22.0176 1.57935M30.763 10.3248L22.0176 19.4676"
+                    stroke="black"
+                    stroke-width="2"
+                  />
+                </svg>
               </div>
             </div>
           </div>

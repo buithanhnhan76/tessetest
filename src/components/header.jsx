@@ -4,6 +4,7 @@ const Header = () => {
   return (
     <section className="bg-[#000000]">
       <main>
+        <h1>Hello</h1>
         <div className="pl-[45px] lg:pl-[96px] pr-[36px] lg:pr-[91px] pt-[41px] lg:pt-[67px]">
           <div className="flex justify-between">
             <div className="text-white">LOGO</div>

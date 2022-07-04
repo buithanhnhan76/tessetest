@@ -5,7 +5,7 @@ import Work from './components/work';
 
 function App() {
   return (
-    <div>
+    <div className='pb-[200px]'>
       <Header></Header>
       <Work></Work>
     </div>

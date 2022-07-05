@@ -9,7 +9,7 @@ import Services from './components/services';
 
 function App() {
   return (
-    <div className='pb-[200px]'>
+    <div>
       <Header></Header>
       <Work></Work>
       <Services></Services>

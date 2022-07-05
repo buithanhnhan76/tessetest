@@ -8,7 +8,7 @@ import Project6 from "../images/Project6.png";
 
 const Work = () => {
   return (
-    <section className="bg-[#000000] mt-[-1px]">
+    <section className="bg-[#000000] mt-[-2px] pb-[105px] lg:pb-[380px]">
       <main>
         <div>
           <div className="text-white text-center pb-[56px] leading-[41.85px] lg:leading-[98px] text-[34.58px] lg:text-[81px] font-[600]">
@@ -79,7 +79,7 @@ const Work = () => {
           </div>
           <div className="w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px] md:hidden"></div>
           <div className="w-full md:w-[50%] md:inline-block relative group md:mt-[-7px]">
-            <img src={Project2} className="w-full"></img>
+            <img src={Project3} className="w-full"></img>
             <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 left-0 md:hidden group-hover:block">
               <div className="font-[700] text-[11px] lg:text-[45px] leading-[13px] lg:leading-[54px]">
                 Brand Redesign
@@ -199,6 +199,13 @@ const Work = () => {
                     stroke-width="2"
                   />
                 </svg>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="text-white mt-[33px] flex justify-center md:hidden">
+              <div className=" py-[12px] px-[31px] border-2 inline-block text-[17px] leading-[21px] font-[600]">
+                See All
               </div>
             </div>
           </div>

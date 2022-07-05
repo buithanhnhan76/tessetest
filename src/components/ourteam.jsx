@@ -6,26 +6,26 @@ import TeamMember4 from "../images/teammember (4).png";
 
 const OurTeam = () => {
   return (
-    <section className="bg-[#000000] text-white">
+    <section className="bg-[#000000] text-white mt-[-2px]">
       <main>
         <div>
           <div className="text-center">
-            <div className="font-[600] text-[35px] leading-[42px]">
+            <div className="font-[600] text-[35px] md:text-[81px] leading-[42px] md:leading-[98px]">
               Our Team
             </div>
-            <div className="font-[600] mt-[15px] text-[13px] leading-[16px] max-w-[278px] mx-auto text-[#BABABA]">
+            <div className="font-[600] mt-[15px] text-[13px] md:text-[24px] leading-[16px] md:leading-[29px] max-w-[278px] lg:max-w-[1100px] mx-auto text-[#BABABA] text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
               ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit
               amet, consectetur adipiscing elit.{" "}
             </div>
           </div>
-          <div className="mt-[51px] md:w-[25%] md:inline-block">
+          <div className="mt-[51px] md:w-[25%]  md:inline-block">
             <div className="relative group mt-[-1px]">
               <img
                 src={TeamMember1}
-                alt="team member 3"
-                className="w-full object-cover"
+                alt="team member 1"
+                className="w-full md:min-h-[591px] h-full object-cover"
               ></img>
               <div className="absolute bottom-0 left-0 bg-white max-w-[237px] md:max-w-[100%] w-full pl-[12px] pt-[8px] pb-[13px] md:hidden group-hover:block">
                 <div className="font-[700] text-[21px] leading-[25px] text-black">
@@ -41,8 +41,8 @@ const OurTeam = () => {
             <div className="relative group">
               <img
                 src={TeamMember2}
-                alt="team member 3"
-                className="w-full object-cover"
+                alt="team member 2"
+                className="w-full md:min-h-[591px] h-full object-cover"
               ></img>
               <div className="absolute bottom-0 right-0 bg-white max-w-[237px] md:max-w-[100%] w-full pl-[12px] pt-[8px] pb-[13px] md:hidden group-hover:block">
                 <div className="font-[700] text-[21px] leading-[25px] text-black">
@@ -59,7 +59,7 @@ const OurTeam = () => {
               <img
                 src={TeamMember3}
                 alt="team member 3"
-                className="w-full object-cover"
+                className="w-full md:min-h-[591px] h-full object-cover"
               ></img>
               <div className="absolute bottom-0 left-0 bg-white max-w-[237px] md:max-w-[100%] w-full pl-[12px] pt-[8px] pb-[13px] md:hidden group-hover:block">
                 <div className="font-[700] text-[21px] leading-[25px] text-black">
@@ -74,7 +74,7 @@ const OurTeam = () => {
           <div className="md:w-[25%] md:inline-block mt-[-1px]">
             <div className="relative group">
               <img
-                className="w-full object-cover"
+                className="w-full md:min-h-[591px] h-full object-cover"
                 alt="tem member 4"
                 src={TeamMember4}
               ></img>

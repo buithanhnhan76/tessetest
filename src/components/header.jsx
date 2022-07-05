@@ -7,7 +7,9 @@ const Header = () => {
         <h1>Hello</h1>
         <div className="pl-[45px] lg:pl-[96px] pr-[36px] lg:pr-[91px] pt-[41px] lg:pt-[67px]">
           <div className="flex justify-between">
-            <div className="text-white">LOGO</div>
+            <div className="text-white text-[14px] leading-[16px] md:text-[24px] md:leading-[29px] font-[600]">
+              LOGO
+            </div>
             <div className="text-white ">
               <svg
                 className="md:hidden"
@@ -29,7 +31,7 @@ const Header = () => {
                   stroke-width="1.05704"
                 />
               </svg>
-              <div className="hidden md:flex md:justify-between md:space-x-[60px] lg:space-x-[87px]">
+              <div className="hidden md:flex md:justify-between md:space-x-[60px] lg:space-x-[87px] font-[400] md:text-[20px] md:leading-[24px]">
                 <div>WORK</div>
                 <div>SERVICES</div>
                 <div>CONTACT</div>

@@ -10,7 +10,7 @@ const Header = () => {
             <div className="text-white">LOGO</div>
             <div className="text-white ">
               <svg
-                className="lg:hidden"
+                className="md:hidden"
                 width="22"
                 height="12"
                 viewBox="0 0 22 12"
@@ -29,7 +29,7 @@ const Header = () => {
                   stroke-width="1.05704"
                 />
               </svg>
-              <div className="hidden lg:flex lg:justify-between lg:space-x-[87px]">
+              <div className="hidden md:flex md:justify-between md:space-x-[60px] lg:space-x-[87px]">
                 <div>WORK</div>
                 <div>SERVICES</div>
                 <div>CONTACT</div>
@@ -37,11 +37,11 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="mt-[60px] lg:mt-[236px] pb-[150px] md:pb-[240px]">
-          <div className="text-white text-center max-w-[323px] md:max-w-[1190px] mx-auto text-[50px] md:text-[162px] leading-[92.52%] md:leading-[134px] font-[600]">
+        <div className="mt-[60px] lg:mt-[236px] pb-[150px] md:pb-[180px] lg:pb-[240px]">
+          <div className="text-white text-center max-w-[323px] md:max-w-[1190px] mx-auto text-[50px] md:text-[110px] lg:text-[162px] leading-[92.52%] md:leading-[110px] lg:leading-[134px] font-[600]">
             Creative Innovative Design Agency
           </div>
-          <div className="text-[#BABABA] text-center mt-[34px] lg:mt-[57px] max-w-[294px] md:max-w-[1100px] mx-auto leading-[18px] md:leading-[39px] text-[15px] md:text-[32px] font-[400]">
+          <div className="text-[#BABABA] text-center mt-[34px] md:mt-[57px] max-w-[294px] md:max-w-[1100px] mx-auto leading-[18px] md:leading-[39px] text-[15px] md:text-[32px] font-[400]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit
             amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [showToggle, setShowToggle] = useState(false);
   return (
     <section className="bg-[#000000]">
       <main>
@@ -10,14 +11,15 @@ const Header = () => {
             <div className="text-white text-[14px] leading-[16px] md:text-[24px] md:leading-[29px] font-[600]">
               LOGO
             </div>
-            <div className="text-white ">
+            <div className="text-white toogle-container">
               <svg
-                className="md:hidden"
+                className="md:hidden toogle-button"
                 width="22"
                 height="12"
                 viewBox="0 0 22 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                onClick={() => setShowToggle(!showToggle)}
               >
                 <path d="M0 1H21.0286" stroke="white" stroke-width="1.05704" />
                 <path
@@ -31,7 +33,12 @@ const Header = () => {
                   stroke-width="1.05704"
                 />
               </svg>
-              <div className="hidden md:flex md:justify-between md:space-x-[60px] lg:space-x-[87px] font-[400] md:text-[20px] md:leading-[24px]">
+              <div
+                className={`
+                  ${
+                    !showToggle ? "hidden" : ""
+                  } mt-[4px] md:mt-0 md:flex md:justify-between md:space-x-[60px] lg:space-x-[87px] font-[400] md:text-[20px] md:leading-[24px]`}
+              >
                 <div>WORK</div>
                 <div>SERVICES</div>
                 <div>CONTACT</div>
@@ -40,10 +47,10 @@ const Header = () => {
           </div>
         </div>
         <div className="mt-[60px] lg:mt-[236px] pb-[150px] md:pb-[180px] lg:pb-[240px]">
-          <div className="text-white text-center max-w-[323px] md:max-w-[1190px] mx-auto text-[50px] md:text-[110px] lg:text-[162px] leading-[92.52%] md:leading-[110px] lg:leading-[134px] font-[600]">
+          <div className="text-white text-center max-w-[323px] md:max-w-[1190px] mx-auto text-[50px] md:text-[95px] lg:text-[130px] xl:text-[162px] leading-[92.52%] md:leading-[110px] lg:leading-[134px] font-[600]">
             Creative Innovative Design Agency
           </div>
-          <div className="text-[#BABABA] text-center mt-[34px] md:mt-[57px] max-w-[294px] md:max-w-[1100px] mx-auto leading-[18px] md:leading-[39px] text-[15px] md:text-[32px] font-[400]">
+          <div className="text-[#BABABA] text-center mt-[34px] md:mt-[57px] max-w-[294px] md:max-w-[600px] lg:max-w-[900px] xl:max-w-[1100px] mx-auto leading-[18px] md:leading-[39px] text-[15px] md:text-[32px] font-[400]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
             dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit
             amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,

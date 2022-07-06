@@ -9,7 +9,7 @@ const Services = () => {
             Services
           </div>
           <div className="px-[48px] lg:px-[187px]">
-            <div className="grid grild-cols-1 md:grid-cols-2 gap-y-[22px] md:gap-y-[60px] md:gap-x-[78px]">
+            <div className="grid grild-cols-1 md:grid-cols-2 gap-y-[22px] md:gap-y-[50px] lg:gap-y-[60px] md:gap-x-[50px] lg:gap-x-[78px]">
               <div className="bg-[#ffffff] text-black pt-[32.6px] max-w-[270px] md:max-w-[530px] mx-auto">
                 <div className="pl-[26.24px] md:pl-[44px] pr-[33px] lg:pr-[90px]">
                   <div className=" text-[23.4px] md:text-[36px] md:leading-[44px] leading-[28px] font-[600]">

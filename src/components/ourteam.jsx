@@ -13,7 +13,7 @@ const OurTeam = () => {
             <div className="font-[600] text-[35px] md:text-[81px] leading-[42px] md:leading-[98px]">
               Our Team
             </div>
-            <div className="font-[600] mt-[15px] text-[13px] md:text-[24px] leading-[16px] md:leading-[29px] max-w-[278px] lg:max-w-[1100px] mx-auto text-[#BABABA] text-center">
+            <div className="font-[600] mt-[15px] text-[13px] md:text-[24px] leading-[16px] md:leading-[29px] max-w-[278px] md:max-w-[450px] lg:max-w-[1100px] mx-auto text-[#BABABA] text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
               ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
               dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Project1 from "../images/Project1.png";
 import Project2 from "../images/Project2.png";
 import Project3 from "../images/Project3.png";
@@ -7,11 +7,12 @@ import Project5 from "../images/Project5.png";
 import Project6 from "../images/Project6.png";
 
 const Work = () => {
+  const [showToggle, setToggle] = useState(false);
   return (
     <section className="bg-[#000000] mt-[-2px] pb-[105px] lg:pb-[380px]">
       <main>
         <div>
-          <div className="text-white text-center pb-[56px] leading-[41.85px] lg:leading-[98px] text-[34.58px] lg:text-[81px] font-[600]">
+          <div className="text-white text-center pb-[56px] leading-[41.85px] lg:leading-[98px] text-[34.58px] md:text-[81px] font-[600]">
             Work
           </div>
           <div className="w-full md:w-[50%] md:inline-block relative group md:mt-[-7px]">
@@ -20,7 +21,7 @@ const Work = () => {
               <div className="font-[700] text-[11px] lg:text-[45px] leading-[13px] lg:leading-[54px]">
                 Abstract Design
               </div>
-              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
+              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] md:text-[12px] md:leading-[16px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
@@ -52,7 +53,7 @@ const Work = () => {
               <div className="font-[700] text-[11px] lg:text-[45px] leading-[13px] lg:leading-[54px]">
                 Vector Design
               </div>
-              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
+              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] md:text-[12px] md:leading-[16px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
@@ -84,7 +85,7 @@ const Work = () => {
               <div className="font-[700] text-[11px] lg:text-[45px] leading-[13px] lg:leading-[54px]">
                 Brand Redesign
               </div>
-              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
+              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] md:text-[12px] md:leading-[16px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
@@ -109,19 +110,28 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-[50%] hidden md:inline-block relative group md:mt-[-7px] ">
+          <div
+            className={`${
+              !showToggle ? "hidden" : ""
+            } w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px] md:hidden`}
+          ></div>
+          <div
+            className={`${
+              !showToggle ? "hidden" : ""
+            } w-full md:w-[50%] md:inline-block relative group md:mt-[-7px] `}
+          >
             <img src={Project4} className="w-full"></img>
             <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
               <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
                 Abstract Design
               </div>
-              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
+              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] md:text-[12px] md:leading-[16px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit.
               </div>
-              <div className="md:mt-[8px] lg:mt-[34px] text-[10px] lg:text-[20px] leading-[24px] font-[500] lg:mr-[10px]">
+              <div className="hidden md:block md:mt-[8px] lg:mt-[34px] text-[10px] lg:text-[20px] leading-[24px] font-[500] lg:mr-[10px]">
                 See Project{" "}
                 <svg
                   width="33"
@@ -140,19 +150,28 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-[50%] hidden md:inline-block relative group md:mt-[-7px] mb-[-7px]">
+          <div
+            className={`${
+              !showToggle ? "hidden" : ""
+            } w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px] md:hidden`}
+          ></div>
+          <div
+            className={`${
+              !showToggle ? "hidden" : ""
+            } w-full md:w-[50%] md:inline-block relative group md:mt-[-7px] mb-[-2px]`}
+          >
             <img src={Project5} className="w-full"></img>
-            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
+            <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 left-0 md:hidden group-hover:block">
               <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
                 Abstract Design
               </div>
-              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
+              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] md:text-[12px] md:leading-[16px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit.
               </div>
-              <div className="md:mt-[8px] lg:mt-[34px] text-[10px] lg:text-[20px] leading-[24px] font-[500] lg:mr-[10px]">
+              <div className="hidden md:block md:mt-[8px] lg:mt-[34px] text-[10px] lg:text-[20px] leading-[24px] font-[500] lg:mr-[10px]">
                 See Project{" "}
                 <svg
                   width="33"
@@ -171,19 +190,28 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-[50%] hidden md:inline-block relative group md:mt-[-7px] mb-[-7px]">
+          <div
+            className={`${
+              !showToggle ? "hidden" : ""
+            } w-[81.29px] h-[4.56px] bg-[#ffffff] mx-auto my-[13px] md:hidden`}
+          ></div>
+          <div
+            className={`${
+              !showToggle ? "hidden" : ""
+            } w-full md:w-[50%] md:inline-block relative group md:mt-[-7px] mb-[-2px]`}
+          >
             <img src={Project6} className="w-full"></img>
             <div className="bg-[#ffffff] max-w-[229px] md:max-w-[100%] md:w-full text-[11px] leading-[13px] pt-[11px] lg:pt-[36px] pl-[19px] lg:pl-[69px] pr-[11px] lg:pr-[95px] pb-[14px] lg:pb-[34px] absolute bottom-0 right-0 md:hidden group-hover:block">
               <div className="font-[700] lg:text-[45px] lg:leading-[54px]">
                 Abstract Design
               </div>
-              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] lg:text-[20px] lg:leading-[24px]">
+              <div className="font-[300] text-[6px] leading-[7.26px] mt-[7px] lg:mt-[12px] md:text-[12px] md:leading-[16px] lg:text-[20px] lg:leading-[24px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. orem
                 ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
                 sit amet, consectetur adipiscing elit.
               </div>
-              <div className="mt-[8px] lg:mt-[34px] text-[10px] lg:text-[20px] leading-[24px] font-[500] lg:mr-[10px]">
+              <div className="hidden md:block mt-[8px] lg:mt-[34px] text-[10px] lg:text-[20px] leading-[24px] font-[500] lg:mr-[10px]">
                 See Project
                 <svg
                   width="33"
@@ -204,7 +232,10 @@ const Work = () => {
           </div>
           <div>
             <div className="text-white mt-[33px] flex justify-center md:hidden">
-              <div className=" py-[12px] px-[31px] border-2 inline-block text-[17px] leading-[21px] font-[600]">
+              <div
+                onClick={() => setToggle(!showToggle)}
+                className=" py-[12px] px-[31px] border-2 inline-block text-[17px] leading-[21px] font-[600]"
+              >
                 See All
               </div>
             </div>
